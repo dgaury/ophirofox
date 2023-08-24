@@ -265,7 +265,8 @@
         "https://nouveau-europresse-com.acces-distant.sciencespo.fr/*",
         "https://nouveau-europresse-com.ressources.univ-poitiers.fr/*",
         "https://nouveau-europresse-com.bibelec.univ-lyon2.fr/*",
-        "https://nouveau-europresse-com.gorgone.univ-toulouse.fr/*"
+        "https://nouveau-europresse-com.gorgone.univ-toulouse.fr/*",
+	"https://nouveau-europresse-com.budistant.univ-nantes.fr/*"
       ],
       "css": [
         "content_scripts/europresse_article.css"
@@ -311,6 +312,10 @@
           "name": "Le Mans Université",
           "AUTH_URL": "https://login.doc-elec.univ-lemans.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=U031524T_1"
         },
+	{ 
+	"name": "Nantes Universite", 
+	"AUTH_URL": "https://budistant.univ-nantes.fr/login?url=http://nouveau.europresse.com/access/ip/default.aspx?un=NANTEST_1" 
+	},
         {
           "name": "Sciences Po Paris",
           "AUTH_URL": "https://acces-distant.sciencespo.fr/fork?https://nouveau.europresse.com/access/ip/default.aspx?un=politique2T_1"
